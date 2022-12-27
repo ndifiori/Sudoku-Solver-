@@ -58,7 +58,7 @@ const solved = () => {
     method: 'POST',
     headers: {
       'content-type': 'application/json',
-      'X-RapidAPI-Key':,
+      'X-RapidAPI-Key': 'EDIT HERE',
       'X-RapidAPI-Host': 'solve-sudoku.p.rapidapi.com'
     },
     body: JSON.stringify({puzzle: data})
@@ -76,4 +76,3 @@ const solved = () => {
 solve.addEventListener('click', solved)
 
 
-// 'X-RapidAPI-Key': '1d1f0694d7mshf77b0d6d47ecc5fp11effbjsn42e56118b286'
