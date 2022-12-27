@@ -1,0 +1,18 @@
+
+#diplay {
+  width: 450px;
+  height: 450px;
+}
+
+#display input {
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  border-spacing: 0;
+  border: 1px grey solid;
+  
+}
+
+.odd-section {
+  background-color: lightgray;
+}
